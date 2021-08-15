@@ -10,9 +10,9 @@
 
     <repositories>
         <repository>
-            <id>local-libs-dir</id>
+            <id>cglib</id>
             <name>maven</name>
-            <url>C:\Java_Attractor_School\Task\telegrambots-3.6-jar-with-dependencies.jar!\META-INF\maven</url>
+            <url>http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd</url>
         </repository>
     </repositories>
 
