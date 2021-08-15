@@ -11,8 +11,8 @@
     <repositories>
         <repository>
             <id>ossrch</id>
-            <name>maven</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <name>Bots</name>
+            <url>https://github.com/rubenlagus/TelegramBots</url>
         </repository>
     </repositories>
 
