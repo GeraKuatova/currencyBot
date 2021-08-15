@@ -8,13 +8,25 @@
     <artifactId>Task</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <repositories>
-        <repository>
-            <id>telegrambots-3.6-jar-with-dependencies.jar</id>
-            <name>telegrambots-3.6-jar-with-dependencies.jar</name>
-            <url>task/telegrambots-3.6-jar-with-dependencies.jar</url>
-        </repository>
-    </repositories>
+<plugin>
+    <groupId>com.jcabi</groupId>
+    <artifactId>jcabi-heroku-maven-plugin</artifactId>
+    <version>0.4.1</version>
+    <configuration>
+      <name>my-test-app</name>
+      <artifacts>
+        <artifact>com.example:example-app:jar::${project.version}</artifact>
+      </artifacts>
+      <procfile>web: java -Xmx256m -jar ./example-app.jar \${PORT}</procfile>
+    </configuration>
+    <executions>
+      <execution>
+        <goals>
+          <goal>deploy</goal>
+        </goals>
+      </execution>
+    </executions>
+  </plugin>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
