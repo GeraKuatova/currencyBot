@@ -8,25 +8,13 @@
     <artifactId>Task</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-<plugin>
-    <groupId>com.jcabi</groupId>
-    <artifactId>jcabi-heroku-maven-plugin</artifactId>
-    <version>0.4.1</version>
-    <configuration>
-      <name>my-test-app</name>
-      <artifacts>
-        <artifact>com.example:example-app:jar::${project.version}</artifact>
-      </artifacts>
-      <procfile>web: java -Xmx256m -jar ./example-app.jar \${PORT}</procfile>
-    </configuration>
-    <executions>
-      <execution>
-        <goals>
-          <goal>deploy</goal>
-        </goals>
-      </execution>
-    </executions>
-  </plugin>
+    <repositories>
+        <repository>
+            <id>local-libs-dir</id>
+            <name>maven</name>
+            <url>C:\Java_Attractor_School\Task\telegrambots-3.6-jar-with-dependencies.jar!\META-INF\maven</url>
+        </repository>
+    </repositories>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
