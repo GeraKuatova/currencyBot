@@ -12,7 +12,7 @@
         <repository>
             <id>cglib</id>
             <name>maven</name>
-            <url>http://maven.apache.org/POM/4.0.0</url>
+            <url>http://www.w3.org/2001/XMLSchema-instance</url>
         </repository>
     </repositories>
 
