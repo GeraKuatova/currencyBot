@@ -10,9 +10,9 @@
 
     <repositories>
         <repository>
-            <id>cglib</id>
+            <id>ossrch</id>
             <name>maven</name>
-            <url>http://www.w3.org/2001/XMLSchema-instance</url>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </repositories>
 
