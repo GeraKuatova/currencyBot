@@ -1,1 +1,1 @@
-web: java -telegrambots-3.6-jar-with-dependencies.jar
+bot: java -telegrambots-3.6-jar-with-dependencies.jar
