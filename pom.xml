@@ -10,9 +10,9 @@
 
     <repositories>
         <repository>
-            <id>local-libs-dir</id>
-            <name>locallib</name>
-            <url>file:${project.basedir}/libs</url>
+            <id>telegrambots-3.6-jar-with-dependencies.jar</id>
+            <name>telegrambots-3.6-jar-with-dependencies.jar</name>
+            <url>task/telegrambots-3.6-jar-with-dependencies.jar</url>
         </repository>
     </repositories>
 
