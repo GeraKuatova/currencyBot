@@ -1,1 +1,1 @@
-procfile - worker: java -telegrambots-3.6-jar-with-dependencies.jar
+worker: java -jar task/telegrambots-3.6-jar-with-dependencies.jar
